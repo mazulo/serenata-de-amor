@@ -65,7 +65,7 @@ json.loads.assert_not_called()
 ```python
 from jarbas.chamber_of_deputies.models import Reimbursement
 
-from unit_tests.utils import sample_reimbursement_data_1, sample_reimbursement_data_2, sample_reimbursement_data_3
+from unit_tests.sample import sample_reimbursement_data_1, sample_reimbursement_data_2, sample_reimbursement_data_3
 
 r1 = Reimbursement(**sample_reimbursement_data_1)
 
